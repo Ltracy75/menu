@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'addminus';
+ nbr: number = 0
+
+  change(amt: number): void{
+    this.nbr+= amt
+ }
+
+
 }
